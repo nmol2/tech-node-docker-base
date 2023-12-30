@@ -7,6 +7,10 @@ const DatabaseConfig = {
     password: process.env['AN_DB_PASSWORD'],
 }
 
+const AppConfig = {
+    port: process.env['AN_PORT']
+}
 module.exports = {
-    DatabaseConfig
+    DatabaseConfig,
+    AppConfig
 }

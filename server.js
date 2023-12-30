@@ -1,3 +1,4 @@
 const app = require("./app");
+const { AppConfig } = require("./config/config");
 
-app.listen(3000)
+app.listen(AppConfig.port)

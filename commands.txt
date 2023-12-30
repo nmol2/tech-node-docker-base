@@ -1,0 +1,13 @@
+npm i express
+npm i sequelize
+npm i dotenv
+npm i --save mysql2
+
+
+-------------------docker
+docker ps
+
+docker build -t nmol2/nodean:1.0 .
+
+docker compose up
+
